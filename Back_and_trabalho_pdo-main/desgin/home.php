@@ -36,7 +36,7 @@ try {
 
       <div id="menu-btn" class="fas fa-bars-staggered"></div>
 
-      <a href="home.html" class="logo"><i class="fas fa-briefcase"></i> Emprego sem fronteiras</a>
+      <a href="home.php" class="logo"><i class="fas fa-briefcase"></i> Emprego sem fronteiras</a>
 
       <nav class="navbar">
          <a href="home.html">home</a>
@@ -44,7 +44,7 @@ try {
          <a href="about.html">Nossa equipe</a>
       </nav>
 
-      <a href="./front_cadastro_emresas.php" class="btn" style="margin-top: 0;">Publique uma Vaga</a>
+      <a href="../front_cadastro_emresas.php" class="btn" style="margin-top: 0;">Publique uma Vaga</a>
 
    </section>
 

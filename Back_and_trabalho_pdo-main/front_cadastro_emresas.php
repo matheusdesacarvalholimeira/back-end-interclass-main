@@ -184,10 +184,15 @@ form .buttons button , .backBtn{
         display: block;
         margin: 0 auto;
     }
+    a{
+            text-decoration: none;
+            color: #124559;
+        }    
 
 </style>
 <body>
     <div class="container">
+    <a href="Back_and_trabalho_pdo-main/desgin/home.php">Home</a>
         <header>Cadastrar</header>
 
         <form action="cadastro_empresas.php" method="post">
