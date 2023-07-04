@@ -46,3 +46,15 @@ try{
 
 ?>
 
+<?php
+$sql = "SELECT * FROM empresas";
+
+try {
+    $stmt = $pdo->query($sql);
+    $resultados = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+} catch (PDOException $e) {
+    echo 'Erro ao ler registros: ' . $e->getMessage();
+}
+?>
+
